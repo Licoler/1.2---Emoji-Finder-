@@ -34,53 +34,6 @@ CORS
 
 dotenv
 
-Структура проекта
-Код
-emoji server/
-│ app.js                — backend API
-│ assets/emojis.json    — база эмодзи
-│ start.bat             — запуск сервера (Windows)
-│ client/               — React + TypeScript приложение
-│   src/
-│   public/
-│   package.json
-│   tsconfig.json
-Запуск проекта
-Запуск backend
-Перейдите в корень проекта:
-
-bash
-cd emoji server
-node app.js
-Сервер запустится на:
-
-Код
-http://localhost:3000
-Проверка:
-
-Код
-http://localhost:3000/api/emojis
-Запуск frontend
-Перейдите в папку клиента:
-
-bash
-cd client
-npm install
-npm start
-Фронтенд работает на:
-
-Код
-http://localhost:3001
-Примеры запросов API
-Все эмодзи:
-http://localhost:3000/api/emojis
-
-Поиск по слову:
-http://localhost:3000/api/emojis?q=fire
-
-Поиск по названию:
-http://localhost:3000/api/emojis?q=smile
-
 Выполненные требования практической работы
 Типизация данных (интерфейсы без any)
 
